@@ -29,7 +29,7 @@ public class player : MonoBehaviour
 
     void Move()
     {
-        if(Input.GetKeyDown (KeyCode.A) || Left)
+        if (Input.GetKeyDown(KeyCode.A) || Left)
         {
             transform.RotateAround(Vector3.zero, Vector3.forward, Time.fixedDeltaTime * moveSpeed);
         }
@@ -46,7 +46,7 @@ public class player : MonoBehaviour
         SceneManager.LoadScene(2);
         Debug.Log(Timer);
         PlayerPrefs.SetFloat("Score", Timer);
-        if (Timer>highTimer)
+        if (Timer > highTimer)
         {
             highTimer = Timer;
         }

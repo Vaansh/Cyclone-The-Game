@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class back : MonoBehaviour {
+public class back : MonoBehaviour
+{
 
     public void NextScene()
     {

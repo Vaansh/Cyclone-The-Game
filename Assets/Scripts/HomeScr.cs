@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class HomeScr : MonoBehaviour {
+public class HomeScr : MonoBehaviour
+{
 
     public void PlayGame()
     {
