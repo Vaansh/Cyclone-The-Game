@@ -8,69 +8,6 @@ This repository contains all the project files for the game "Cyclone", which was
 
 Simply clone the project and move the CycloneTheSurvivor.apk file to an appropriate destination on your android mobile device and install it there to get a playable version of the game.
 
-### Folder structure
-#### [Complete Folder Structure](https://pastebin.com/32QQk1aZ)
-Here's a simplified folder structure of the project:
-```
-|-- Cyclone-The-Game
-    |-- Assembly-CSharp.csproj
-    |-- Cyclone.csproj
-    |-- Cyclone.sln
-    |-- CycloneTheSurvivor.apk
-    |-- CycloneTheSurvivor_beta.apk
-    |-- Cyclone_01.apk
-    |-- Cyclone_02.apk
-    |-- README.md
-    |-- Assets
-    |   |-- PreFabs
-    |   |   |-- Hexagon.prefab
-    |   |   |-- Main Camera.prefab
-    |   |   |-- New Sprite.prefab
-    |   |   |-- Player.prefab
-    |   |   |-- Spawner.prefab
-    |   |-- Scenes
-    |   |   |-- GameOver.unity
-    |   |   |-- Home.unity
-    |   |   |-- Play.unity
-    |   |-- Scripts
-    |   |   |-- Hexagon.cs
-    |   |   |-- HomeScr.cs
-    |   |   |-- Rotator.cs
-    |   |   |-- Score.cs
-    |   |   |-- Spawner.cs
-    |   |   |-- back.cs
-    |   |   |-- player.cs
-    |   |-- Sprites
-    |       |-- backg.png
-    |-- Library             #Binary, data and library files, excluded from structure.
-    |-- Packages
-    |   |-- manifest.json
-    |-- ProjectSettings
-    |   |-- AudioManager.asset
-    |   |-- ClusterInputManager.asset
-    |   |-- DynamicsManager.asset
-    |   |-- EditorBuildSettings.asset
-    |   |-- EditorSettings.asset
-    |   |-- GraphicsSettings.asset
-    |   |-- InputManager.asset
-    |   |-- NavMeshAreas.asset
-    |   |-- NetworkManager.asset
-    |   |-- Physics2DSettings.asset
-    |   |-- PresetManager.asset
-    |   |-- ProjectSettings.asset
-    |   |-- ProjectVersion.txt
-    |   |-- QualitySettings.asset
-    |   |-- TagManager.asset
-    |   |-- TimeManager.asset
-    |   |-- UnityConnectSettings.asset
-    |-- obj
-        |-- Debug
-            |-- Assembly-CSharp.csproj.CoreCompileInputs.cache
-            |-- Assembly-CSharp.csprojAssemblyReference.cache
-            |-- DesignTimeResolveAssemblyReferencesInput.cache
-            |-- TempPE
-```
-
 ## Product Structure
 
 <img align="left" src="https://i.imgur.com/AbURzxg.jpg" width="400">
